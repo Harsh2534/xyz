@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5634679884:AAH6KjE4JbS5rD3ljyZSJZJx6I-rbz5
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/cf09c902fe6508ebc1b4c.jpg https://graph.org/file/6b36241b4c3b20e0e7571.jpg https://graph.org/file/41a17097f5f33dbc03f72.jpg https://graph.org/file/4539651997aa99dc46ae9.jpg https://graph.org/file/4263104a9fbf6aa6dfa8c.jpg https://telegra.ph/file/486a9c2e80ed1729a345f.jpg https://graph.org/file/a131601034b5976ca284a.jpg https://graph.org/file/0fee6b27151f8a54f770b.jpg https://graph.org/file/d2a2cccde06a926f97a38.jpg https://graph.org/file/f43932aa4c066caf487d0.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/cf09c902fe6508ebc1b4c.jpg https://graph.org/file/6b36241b4c3b20e0e7571.jpg https://graph.org/file/41a17097f5f33dbc03f72.jpg https://graph.org/file/4539651997aa99dc46ae9.jpg https://graph.org/file/4263104a9fbf6aa6dfa8c.jpg https://graph.org/file/a131601034b5976ca284a.jpg https://graph.org/file/0fee6b27151f8a54f770b.jpg https://graph.org/file/d2a2cccde06a926f97a38.jpg https://graph.org/file/f43932aa4c066caf487d0.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/syx633737/151")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
