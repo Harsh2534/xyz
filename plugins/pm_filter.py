@@ -131,7 +131,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/18"),
+            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/19"),
         ])
     else:
         btn = []
@@ -141,7 +141,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/18"),
+            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/19"),
         ])
     try:
         if settings['max_btn']:
@@ -354,7 +354,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/18"),
+            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/19"),
         ])
     else:
         btn = []
@@ -364,7 +364,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/18"),
+            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/19"),
         ])
 
     if offset != "":
@@ -529,7 +529,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             for file in files
         ]
         btn.insert(0, [
-            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/18"),
+            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/19"),
         ])
     else:
         btn = []
@@ -539,7 +539,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/18"),
+            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/19"),
         ])
         
     offset = 0
@@ -1832,7 +1832,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/18"),
+            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/19"),
         ])
     else:
         btn = []
@@ -1842,7 +1842,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/18"),
+            InlineKeyboardButton("𝙷𝚘𝚠 𝚃𝚘 𝙾𝚙𝚎𝚗 𝙻𝚒𝚗𝚔", url="https://t.me/tutorials0128/19"),
         ])
     if offset != "":
         req = message.from_user.id if message.from_user else 0
