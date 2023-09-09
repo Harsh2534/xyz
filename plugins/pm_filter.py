@@ -145,12 +145,12 @@ async def next_page(bot, query):
         ])
     try:
         if settings['max_btn']:
-            if 0 < offset <= 6:
+            if 0 < offset <= 10:
                 off_set = 0
             elif offset == 0:
                 off_set = None
             else:
-                off_set = offset - 6
+                off_set = offset - 10
             if n_offset == 0:
                 btn.append(
                     [InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
@@ -999,7 +999,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton('Mᴀx Bᴜᴛᴛᴏɴs',
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}'),
-                    InlineKeyboardButton('6' if settings["max_btn"] else f'{MAX_B_TN}',
+                    InlineKeyboardButton('10' if settings["max_btn"] else f'{MAX_B_TN}',
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}')
                 ],
                 [
@@ -1086,7 +1086,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton('Mᴀx Bᴜᴛᴛᴏɴs',
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}'),
-                    InlineKeyboardButton('6' if settings["max_btn"] else f'{MAX_B_TN}',
+                    InlineKeyboardButton('10' if settings["max_btn"] else f'{MAX_B_TN}',
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}')
                 ],
                 [
@@ -1750,7 +1750,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton('Mᴀx Bᴜᴛᴛᴏɴs',
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}'),
-                    InlineKeyboardButton('6' if settings["max_btn"] else f'{MAX_B_TN}',
+                    InlineKeyboardButton('10' if settings["max_btn"] else f'{MAX_B_TN}',
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}')
                 ],
                 [
